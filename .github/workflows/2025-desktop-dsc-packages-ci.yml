@@ -51,6 +51,10 @@ jobs:
         Get-Command notepad++.exe
         
         # Verify Google Chrome installation
-        Write-Host "Checking Google Chrome is available..."
-        Get-Command chrome.exe
+        Write-Host "Checking Google Chrome installation path directly..."
+        if (Test-Path "C:\Program Files\Google\Chrome\Application\chrome.exe") {
+            Write-Host "Success: 'chrome.exe' was found at the expected location."
+        } else {
+            throw "Error: 'chrome.exe' was not found at the expected location."
+        }
       shell: powershell

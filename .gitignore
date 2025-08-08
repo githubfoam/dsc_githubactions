@@ -1,0 +1,20 @@
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# PowerShell cache and logs
+*.log
+*.ps1xml
+*.psd1
+*.pssc
+
+# DSC Compilation output
+# This folder is generated when the DSC configuration is compiled.
+DesktopPackages/
+
+# Chocolatey
+# Exclude chocolatey cache and logs that might be created during local runs
+c:\programdata\chocolatey\cache
+c:\programdata\chocolatey\logs
+chocolatey.log
