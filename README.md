@@ -6,7 +6,7 @@ This repository contains an automated GitHub Actions workflow to install a colle
 
 The workflow is defined in `.github/workflows/2025-desktop-dsc-packages-ci.yml`. It is triggered by two events:
 
-1.  A `push` to the `test` branch.
+1.  A `push` to the `main` branch.
 2.  A scheduled cron job that runs once a day at 11:39 AM UTC.
 
 The workflow's primary goal is to ensure a consistent and repeatable software installation process.
