@@ -1,3 +1,6 @@
+[![2022 desktop DSC packages CI workflow](https://github.com/githubfoam/dsc_githubactions/actions/workflows/2022-desktop-dsc-packages-ci.yml/badge.svg)](https://github.com/githubfoam/dsc_githubactions/actions/workflows/2022-desktop-dsc-packages-ci.yml)
+
+[![2025 desktop DSC packages CI workflow](https://github.com/githubfoam/dsc_githubactions/actions/workflows/2025-desktop-dsc-packages-ci.yml/badge.svg)](https://github.com/githubfoam/dsc_githubactions/actions/workflows/2025-desktop-dsc-packages-ci.yml)
 # 2025 Desktop DSC Packages CI Workflow
 
 This repository contains an automated GitHub Actions workflow to install a collection of desktop software packages on a Windows runner using PowerShell DSC (Desired State Configuration) and Chocolatey.
